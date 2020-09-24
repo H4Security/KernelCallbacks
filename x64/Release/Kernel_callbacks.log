@@ -1,0 +1,37 @@
+﻿  Proc_Notifi.cpp
+C:\Users\me\source\repos\Kernel_callbacks\Helper.h(20,6): warning C4091: 'typedef ': ignored on left of '_KERNEL_INFO' when no variable is declared
+C:\Users\me\source\repos\Kernel_callbacks\leechcore.h(111,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\leechcore.h(111,24): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(660,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(660,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(669,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(669,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(678,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(678,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(685,32): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(685,32): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(692,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(692,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(701,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(701,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(709,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(709,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(717,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(717,35): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(726,32): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(726,32): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(927,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(927,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(78,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(81,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(84,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(87,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(155,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(167,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(174,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(189,25): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(197,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(216,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\me\source\repos\Kernel_callbacks\Proc_Notifi.cpp(42,2): error C3861: 'kkll_m_notify_list_reg': identifier not found
+C:\Users\me\source\repos\Kernel_callbacks\Proc_Notifi.cpp(100,14): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\me\source\repos\Kernel_callbacks\Proc_Notifi.cpp(137,13): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
