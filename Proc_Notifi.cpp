@@ -13,7 +13,7 @@ static boolean Debug = FALSE;
 
 int main()
 {
-	Debug = TRUE;
+	Debug = FALSE;
 	BOOL result;
 	//TCHAR buffer[MAX_PATH];
 	LPCSTR param[] = { "","-device","pmem" };
@@ -21,11 +21,22 @@ int main()
 	
 
 	result = VMMDLL_Initialize(3, (LPSTR*)param);
-	if (!result && Debug)
+	if (!result)
 	{
-		printf("[-] VMMDLL_Initialize: 0x%.8x\n", (UINT)GetLastError());
-		VMMDLL_Close();
-		return 1;
+		DWORD dw = GetLastError();
+		if (Debug)
+		{
+			printf("[-] VMMDLL_Initialize: 0x%.8x\n", (UINT)GetLastError());
+			//VMMDLL_Close();
+			return 1;
+		}
+		if (dw == 0x6)
+		{
+			result = VMMDLL_Initialize(3, (LPSTR*)param);
+			if (!result)
+				return 1;
+		}
+
 	}
 
 	notify_list_process(Process);
@@ -74,7 +85,7 @@ NTSTATUS notify_list_reg( CallBackType CallType)
 				DWORDLONG addr = 0;
 				if (VMMDLL_MemRead(4, (DWORDLONG)((ULONG_PTR)head + pCmpCallBackOffsets->off1), (PBYTE)&addr, sizeof(DWORDLONG)))
 				{
-					if (!Sys_modules.PrintModule((PVOID*)addr, CallType))
+					if (!Sys_modules.PrintModule((PVOID*)addr, CallType) && addr > 0x0)
 					{
 						printf("[+] address of Reg Callback in kernel 0x%jx\n", addr);
 					}

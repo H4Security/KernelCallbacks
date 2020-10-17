@@ -1,66 +1,38 @@
-﻿  Copy-Item : The filename, directory name, or volume label syntax is incorrect.
-  At C:\Users\me\source\repos\Kernel_callbacks\scripte.ps1:2 char:1
-  + Copy-Item -Path C:\Users\me\source\repos\Kernel_callbacks\winpmem_64. ...
-  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
-      + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
-   
-  Copy-Item : The filename, directory name, or volume label syntax is incorrect.
-  At C:\Users\me\source\repos\Kernel_callbacks\scripte.ps1:3 char:1
-  + Copy-Item -Path C:\Users\me\source\repos\Kernel_callbacks\vmm.dll -De ...
-  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
-      + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
-   
-  Copy-Item : The filename, directory name, or volume label syntax is incorrect.
-  At C:\Users\me\source\repos\Kernel_callbacks\scripte.ps1:4 char:1
-  + Copy-Item -Path C:\Users\me\source\repos\Kernel_callbacks\leechcore.d ...
-  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
-      + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
-   
-  Copy-Item : The filename, directory name, or volume label syntax is incorrect.
-  At C:\Users\me\source\repos\Kernel_callbacks\scripte.ps1:5 char:1
-  + Copy-Item -Path C:\Users\me\source\repos\Kernel_callbacks\x64\Debug\K ...
-  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      + CategoryInfo          : NotSpecified: (:) [Copy-Item], IOException
-      + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.CopyItemCommand
-   
-  Proc_Notifi.cpp
-C:\Users\me\source\repos\Kernel_callbacks\Helper.h(20,6): warning C4091: 'typedef ': ignored on left of '_KERNEL_INFO' when no variable is declared
-C:\Users\me\source\repos\Kernel_callbacks\leechcore.h(111,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\leechcore.h(111,24): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(660,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(660,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(669,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(669,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(678,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(678,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(685,32): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(685,32): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(692,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(692,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(701,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(701,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(709,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(709,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(717,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(717,35): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(726,32): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(726,32): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(927,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
-C:\Users\me\source\repos\Kernel_callbacks\vmmdll.h(927,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(76,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(79,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(82,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(85,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(147,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(159,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(166,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(181,25): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(189,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
-C:\Users\me\source\repos\Kernel_callbacks\SystemModules.h(208,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
-C:\Users\me\source\repos\Kernel_callbacks\Proc_Notifi.cpp(57,26): warning C4101: 'pNotifyCallback': unreferenced local variable
-C:\Users\me\source\repos\Kernel_callbacks\Proc_Notifi.cpp(59,8): warning C4101: 'i': unreferenced local variable
-C:\Users\me\source\repos\Kernel_callbacks\Proc_Notifi.cpp(115,13): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
-  Kernel_callbacks.vcxproj -> C:\Users\me\source\repos\Kernel_callbacks\x64\Debug\Kernel_callbacks.exe
+﻿  Proc_Notifi.cpp
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\Helper.h(20,6): warning C4091: 'typedef ': ignored on left of '_KERNEL_INFO' when no variable is declared
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\leechcore.h(111,24): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\leechcore.h(111,24): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(660,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(660,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(669,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(669,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(678,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(678,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(685,32): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(685,32): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(692,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(692,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(701,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(701,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(709,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(709,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(717,35): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(717,35): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(726,32): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(726,32): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(927,31): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\vmmdll.h(927,31): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(76,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(79,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(82,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(85,24): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(147,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(159,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(166,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(181,25): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(189,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\SystemModules.h(208,21): warning C4244: '=': conversion from 'DWORD' to 'char', possible loss of data
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\Proc_Notifi.cpp(68,26): warning C4101: 'pNotifyCallback': unreferenced local variable
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\Proc_Notifi.cpp(70,8): warning C4101: 'i': unreferenced local variable
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\Proc_Notifi.cpp(126,13): warning C4477: 'printf' : format string '%jx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID *'
+  Kernel_callbacks.vcxproj -> C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\x64\Debug\Kernel_callbacks.exe

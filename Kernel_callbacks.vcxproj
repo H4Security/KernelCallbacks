@@ -123,7 +123,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -file C:\Users\me\source\repos\Kernel_callbacks\scripte.ps1</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

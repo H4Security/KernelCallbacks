@@ -4,3 +4,5 @@ Z:\Callbacks\Kernel_callbacks\x64\Debug\Kernel_callbacks.exe
 Z:\Callbacks\Kernel_callbacks\x64\Debug\Kernel_callbacks.pdb
 \\vmware-host\Shared Folders\Callbacks\Kernel_callbacks\x64\Debug\Kernel_callbacks.exe
 \\vmware-host\Shared Folders\Callbacks\Kernel_callbacks\x64\Debug\Kernel_callbacks.pdb
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\x64\Debug\Kernel_callbacks.exe
+C:\Users\_Lab1\source\repos\lastversion_kerCallbackx\KernelCallbacks\x64\Debug\Kernel_callbacks.pdb
